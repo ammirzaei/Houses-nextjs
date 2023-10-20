@@ -8,4 +8,6 @@ export type SingleCardItem = {
     roomCount: number,
     meterage: number,
     price: number,
+    code:string,
+    desc: string,
 }
