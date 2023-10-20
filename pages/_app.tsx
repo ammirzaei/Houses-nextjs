@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
+import Link from 'next/link'
 
 export default function App({ Component, pageProps }: AppProps) {
   // return <Component {...pageProps} />
@@ -47,9 +48,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <h1 className="u-heading-1">
             با خرید خانه نهایت آزادی را احساس کنید
         </h1>
-        <button className="btn header__btn btn-brown">
+        <Link href={'/homes'} className="btn header__btn btn-brown">
             املاک ما را مشاهده کنید
-        </button>
+        </Link>
 
         <p className="seeon__text">دیده می شود در</p>
         <figure className="seeon__box-img">
